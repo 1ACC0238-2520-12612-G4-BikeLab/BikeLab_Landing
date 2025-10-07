@@ -1,0 +1,155 @@
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .header-content {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    
+    .mobile-menu-btn {
+        display: block;
+    }
+    
+    nav {
+        width: 100%;
+        display: none;
+        margin-top: 15px;
+    }
+    
+    nav.active {
+        display: block;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        background-color: var(--card-bg);
+        border-radius: 10px;
+        padding: 20px;
+        border: 1px solid var(--border-color);
+    }
+    
+    nav ul li {
+        margin: 8px 0;
+        text-align: center;
+    }
+    
+    .hero {
+        padding: 140px 0 60px;
+    }
+    
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+    
+    .hero p {
+        font-size: 1.1rem;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .btn {
+        width: 100%;
+        max-width: 280px;
+    }
+    
+    .steps {
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    .steps::before {
+        display: none;
+    }
+    
+    .step {
+        margin-bottom: 40px;
+    }
+    
+    .features-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+    
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+    
+    .section-title h2 {
+        font-size: 2rem;
+    }
+    
+    .cta h2 {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        padding: 120px 0 40px;
+    }
+    
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+    
+    .hero p {
+        font-size: 1rem;
+    }
+    
+    .section-title h2 {
+        font-size: 1.8rem;
+    }
+    
+    .feature-card {
+        padding: 30px 20px;
+    }
+    
+    .step {
+        padding: 0 10px;
+    }
+    
+    .header-buttons {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+    
+    .language-selector {
+        margin-right: 0;
+        width: 100%;
+    }
+    
+    .logo-text {
+        font-size: 1.3rem;
+    }
+    
+    .features,
+    .how-it-works,
+    .cta {
+        padding: 60px 0;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    .hero h1 {
+        font-size: 1.6rem;
+    }
+    
+    .feature-card {
+        padding: 25px 15px;
+    }
+    
+    .step-number {
+        width: 60px;
+        height: 60px;
+        font-size: 1.5rem;
+    }
+}

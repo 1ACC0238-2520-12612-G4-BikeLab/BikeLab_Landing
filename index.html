@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BikeLab - Micromovilidad para Universitarios</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+<div class="logo">
+    <img src="assets/logo.png" alt="BikeLab Logo" class="logo-img">
+    <div class="logo-text">BIKELAB</div>
+</div>
+                
+                <button class="mobile-menu-btn">☰</button>
+                
+                <nav id="main-nav">
+                    <ul>
+                        <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                        <li><a href="#como-funciona" class="nav-link">Cómo funciona</a></li>
+                        <li><a href="#beneficios" class="nav-link">Beneficios</a></li>
+                        <li><a href="#testimonios" class="nav-link">Testimonios</a></li>
+                        <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="header-buttons">
+                    <select class="language-selector" id="language-selector">
+                        <option value="es">Español</option>
+                        <option value="en">English</option>
+                    </select>
+                    <button class="btn btn-primary" id="register-btn">Registrarse</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="container">
+            <h1 id="hero-title">Movilidad sostenible para estudiantes universitarios</h1>
+            <p id="hero-text">Alquila bicicletas y scooters de otros estudiantes de forma segura y económica. Únete a la comunidad de micromovilidad más grande en campus universitarios.</p>
+            <div class="hero-buttons">
+                <button class="btn btn-secondary" id="download-app">Descargar la App</button>
+                <button class="btn btn-primary" id="learn-more">Saber más</button>
+            </div>
+            <div class="hero-image-placeholder">
+                <img src="assets/bikeFooter.svg" alt="BikeLab App" class="hero-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="beneficios">
+        <div class="container">
+            <div class="section-title">
+                <h2 id="features-title">¿Por qué elegir BikeLab?</h2>
+                <p id="features-subtitle">Ofrecemos la solución perfecta para la movilidad en campus universitarios</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🚲</div>
+                    <h3 id="feature1-title">Movilidad práctica</h3>
+                    <p id="feature1-text">Desplázate rápidamente por el campus y sus alrededores sin preocuparte por el tráfico o el estacionamiento.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🌱</div>
+                    <h3 id="feature2-title">Sostenibilidad</h3>
+                    <p id="feature2-text">Reduce tu huella de carbono utilizando un medio de transporte ecológico y responsable con el medio ambiente.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">💸</div>
+                    <h3 id="feature3-title">Ahorro económico</h3>
+                    <p id="feature3-text">Alquila vehículos a precios accesibles o genera ingresos extras rentando tu bicicleta o scooter cuando no la uses.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3 id="feature4-title">Comunidad segura</h3>
+                    <p id="feature4-text">Nuestro sistema de verificación entre pares garantiza transacciones seguras y confiables.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works" id="como-funciona">
+        <div class="container">
+            <div class="section-title">
+                <h2 id="how-it-works-title">¿Cómo funciona BikeLab?</h2>
+                <p id="how-it-works-subtitle">En solo 3 sencillos pasos podrás disfrutar de la micromovilidad en tu campus</p>
+            </div>
+            
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3 id="step1-title">Regístrate</h3>
+                    <p id="step1-text">Descarga la app y crea tu perfil verificando tu correo universitario.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3 id="step2-title">Encuentra o ofrece</h3>
+                    <p id="step2-text">Busca bicicletas o scooters disponibles cerca de ti, o publica el tuyo para alquilar.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3 id="step3-title">Disfruta del viaje</h3>
+                    <p id="step3-text">Reserva, desbloquea y disfruta de tu viaje de forma segura y económica.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2 id="cta-title">¡Únete a la revolución de la micromovilidad!</h2>
+            <p id="cta-text">Descarga la aplicación hoy mismo y comienza a disfrutar de todos los beneficios de BikeLab en tu campus.</p>
+            <button class="btn btn-secondary" id="cta-button">Descargar ahora</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contacto">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>BikeLab</h3>
+                    <p id="footer-about">La plataforma de micromovilidad líder para estudiantes universitarios.</p>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 id="footer-links-title">Enlaces</h3>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#como-funciona">Cómo funciona</a></li>
+                        <li><a href="#beneficios">Beneficios</a></li>
+                        <li><a href="#testimonios">Testimonios</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 id="footer-support-title">Soporte</h3>
+                    <ul>
+                        <li><a href="#">Centro de ayuda</a></li>
+                        <li><a href="#">Preguntas frecuentes</a></li>
+                        <li><a href="#">Contáctanos</a></li>
+                        <li><a href="#">Política de privacidad</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 id="footer-contact-title">Contacto</h3>
+                    <ul>
+                        <li>Email: info@bikelab.com</li>
+                        <li>Teléfono: +51 987 654 321</li>
+                        <li>
+                            <div style="margin-top: 15px;">
+                                <a href="#" style="color: white; margin-right: 10px;">FB</a>
+                                <a href="#" style="color: white; margin-right: 10px;">IG</a>
+                                <a href="#" style="color: white; margin-right: 10px;">TW</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 BikeLab. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/language.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
