@@ -20,14 +20,14 @@
                 <button class="mobile-menu-btn">☰</button>
                 
                 <nav id="main-nav">
-                    <ul>
-                        <li><a href="#inicio" class="nav-link">Inicio</a></li>
-                        <li><a href="#como-funciona" class="nav-link">Cómo funciona</a></li>
-                        <li><a href="#beneficios" class="nav-link">Beneficios</a></li>
-                        <li><a href="#testimonios" class="nav-link">Testimonios</a></li>
-                        <li><a href="#contacto" class="nav-link">Contacto</a></li>
-                    </ul>
-                </nav>
+        <ul>
+            <li><a href="#inicio" class="nav-link" id ="I" >Inicio </a></li>
+            <li><a href="#sobre-nosotros" class="nav-link" id = "SN" >Sobre Nosotros</a></li>
+            <li><a href="#como-funciona" class="nav-link" id = "CF" >Cómo funciona</a></li>
+            <li><a href="#beneficios" class="nav-link" id = "B" >Beneficios</a></li>
+            <li><a href="#contacto" class="nav-link" id = "C" >Contacto</a></li>
+        </ul>
+    </nav>
                 
                 <div class="header-buttons">
                     <select class="language-selector" id="language-selector">
@@ -54,6 +54,98 @@
             </div>
         </div>
     </section>
+
+<!-- About Section -->
+<section class="about" id="sobre-nosotros">
+    <div class="container">
+        <div class="about-content">
+            <div class="about-text">
+                <div class="section-title">
+                    <h2 id="about-title">Sobre BikeLab</h2>
+                    <p id="about-subtitle">Conectando estudiantes a través de la movilidad sostenible</p>
+                </div>
+                
+                <div class="about-description">
+                    <p id="about-description1"><strong>BikeLab</strong> es una startup de micromovilidad enfocada principalmente en estudiantes universitarios que buscan una forma práctica, segura y sostenible de desplazarse.</p>
+                    
+                    <p id="about-description2">A través de nuestra aplicación, los estudiantes pueden alquilar bicicletas o scooters ofrecidos por otros usuarios arrendatarios, generando confianza y beneficios tanto para quienes alquilan como para quienes ofrecen sus vehículos.</p>
+                    
+                    <p id="about-description3">De esta manera, promovemos un transporte accesible, responsable con el medio ambiente y basado en la seguridad entre pares.</p>
+                </div>
+
+                <!-- Misión y Visión en layout horizontal -->
+                <div class="mission-vision-simple">
+                    <div class="mv-item">
+
+                        <h3 id="mission-title">Nuestra Misión</h3>
+                        <p id="mission-text">Facilitar la movilidad sostenible de los estudiantes mediante una plataforma confiable, segura y accesible para el alquiler de bicicletas y scooters.</p>
+                    </div>
+                    
+                    <div class="mv-item">
+
+                        <h3 id="vision-title">Nuestra Visión</h3>
+                        <p id="vision-text">Convertirnos en la aplicación líder de micromovilidad universitaria en Latinoamérica, reconocida por impulsar la confianza, la sostenibilidad y la innovación.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="about-visual">
+                <!-- Valores  -->
+                <div class="values-simple">
+                    <h3 id="values-title">Nuestros Valores</h3>
+                    <div class="values-list">
+                        <div class="value-simple">
+
+                            <div class="value-simple-content">
+                                <h4 id="value1-title">Transparencia</h4>
+                                <p id="value1-text">Comunicación clara en cada transacción</p>
+                            </div>
+                        </div>
+                        
+                        <div class="value-simple">
+
+                            <div class="value-simple-content">
+                                <h4 id="value2-title">Responsabilidad</h4>
+                                <p id="value2-text">Compromiso con usuarios y medio ambiente</p>
+                            </div>
+                        </div>
+                        
+                        <div class="value-simple">
+
+                            <div class="value-simple-content">
+                                <h4 id="value3-title">Seguridad</h4>
+                                <p id="value3-text">Transacciones seguras y verificadas</p>
+                            </div>
+                        </div>
+
+                        <div class="value-simple">
+
+                            <div class="value-simple-content">
+                                <h4 id="value4-title">Innovación</h4>
+                                <p id="value4-text">Mejora constante de la plataforma</p>
+                            </div>
+                        </div>
+
+                        <div class="value-simple">
+
+                            <div class="value-simple-content">
+                                <h4 id="value5-title">Comunidad</h4>
+                                <p id="value5-text">Economía colaborativa estudiantil</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CTA  -->
+                <div class="cta-simple">
+                    <h4 id="about-cta-title">¿Eres estudiante?</h4>
+                    <p id="about-cta-text">Únete a nuestra comunidad de movilidad sostenible</p>
+                    <button class="btn btn-primary" id="about-cta-button">Comenzar ahora</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
     <!-- Features Section -->
     <section class="features" id="beneficios">
@@ -121,6 +213,182 @@
         </div>
     </section>
 
+    <!-- FAQ Section -->
+<section class="faq" id="preguntas-frecuentes">
+    <div class="container">
+        <div class="section-title">
+            <h2 id="faq-title">Preguntas Frecuentes</h2>
+            <p id="faq-subtitle">Resolvemos tus dudas sobre BikeLab</p>
+        </div>
+        
+        <div class="faq-content">
+            <div class="faq-categories">
+                <button class="faq-category-btn active" data-category="general" id="faq-category-general">
+                    General
+                </button>
+                <button class="faq-category-btn" data-category="seguridad" id="faq-category-seguridad">
+                    Seguridad
+                </button>
+                <button class="faq-category-btn" data-category="pagos" id="faq-category-pagos">
+                    Pagos
+                </button>
+                <button class="faq-category-btn" data-category="tecnicos" id="faq-category-tecnicos">
+                    Técnicos
+                </button>
+            </div>
+            
+            <div class="faq-items">
+                <!-- Categoría General -->
+                <div class="faq-category active" id="category-general">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3 id="faq-q1">¿Qué es BikeLab?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p id="faq-a1">BikeLab es una plataforma de micromovilidad que conecta a estudiantes universitarios para alquilar bicicletas y scooters de forma segura y económica dentro de campus universitarios.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3 id="faq-q2">¿Quién puede usar BikeLab?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p id="faq-a2">Cualquier estudiante universitario con un correo institucional válido puede registrarse y usar la plataforma tanto para alquilar como para ofrecer sus vehículos en alquiler.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3 id="faq-q3">¿Qué tipos de vehículos puedo alquilar?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p id="faq-a3">Actualmente manejamos bicicletas urbanas, bicicletas eléctricas y scooters eléctricos. Todos los vehículos pasan por una verificación de seguridad antes de ser listados.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3 id="faq-q4">¿Cómo me registro en la plataforma?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p id="faq-a4">Descarga la app, verifica tu correo universitario, completa tu perfil y listo. El proceso toma menos de 5 minutos y es completamente gratuito.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Categoría Seguridad -->
+                <div class="faq-category" id="category-seguridad">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3 id="faq-q5">¿Cómo garantizan la seguridad de las transacciones?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p id="faq-a5">Implementamos verificación de identidad, sistema de reputación entre usuarios, seguros opcionales para vehículos y transacciones protegidas a través de nuestra plataforma.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3 id="faq-q6">¿Qué pasa si el vehículo sufre daños durante el alquiler?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p id="faq-a6">Contamos con un sistema de protección que cubre daños menores. Para daños mayores, ofrecemos seguros opcionales. Siempre documentamos el estado del vehículo antes y después de cada alquiler.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3 id="faq-q7">¿Cómo verifican a los usuarios?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p id="faq-a7">Verificamos correos universitarios, solicitamos identificación oficial y construimos un sistema de reputación basado en las experiencias de otros usuarios.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Categoría Pagos -->
+                <div class="faq-category" id="category-pagos">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3 id="faq-q8">¿Cómo funcionan los pagos?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p id="faq-a8">Los pagos se procesan de forma segura a través de nuestra plataforma. Aceptamos tarjetas de crédito/débito y transferencias bancarias. El pago se libera al arrendador 24 horas después de finalizado el alquiler.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3 id="faq-q9">¿Qué comisión cobra BikeLab?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p id="faq-a9">Cobramos una comisión del 15% por cada transacción exitosa. Esta comisión nos permite mantener y mejorar la plataforma, así como ofrecer soporte y seguridad a nuestros usuarios.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3 id="faq-q10">¿Puedo cancelar un alquiler?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p id="faq-a10">Sí, puedes cancelar hasta 2 horas antes del inicio del alquiler sin costo. Cancelaciones con menos de 2 horas de anticipación pueden incurrir en un cargo del 50% del valor del alquiler.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Categoría Técnicos -->
+                <div class="faq-category" id="category-tecnicos">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3 id="faq-q11">¿La app está disponible para iOS y Android?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p id="faq-a11">Sí, BikeLab está disponible tanto en App Store para iOS como en Google Play Store para Android. La descarga es completamente gratuita.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3 id="faq-q12">¿Qué hacer si tengo problemas técnicos con la app?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p id="faq-a12">Puedes contactar a nuestro equipo de soporte técnico a través de la sección "Ayuda" en la app o escribirnos a soporte@bikelab.com. Generalmente respondemos en menos de 24 horas.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3 id="faq-q13">¿Necesito conexión a internet para usar la app?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p id="faq-a13">Sí, necesitas conexión a internet para reservar y desbloquear vehículos. Una vez desbloqueado el vehículo, puedes usar las funciones básicas sin conexión.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="faq-cta">
+            <p id="faq-cta-text">¿No encontraste lo que buscabas?</p>
+            <button class="btn btn-secondary" id="faq-contact-btn">Contáctanos</button>
+        </div>
+    </div>
+</section>
+
     <!-- CTA Section -->
     <section class="cta">
         <div class="container">
@@ -142,28 +410,25 @@
                 <div class="footer-column">
                     <h3 id="footer-links-title">Enlaces</h3>
                     <ul>
-                        <li><a href="#inicio">Inicio</a></li>
-                        <li><a href="#como-funciona">Cómo funciona</a></li>
-                        <li><a href="#beneficios">Beneficios</a></li>
-                        <li><a href="#testimonios">Testimonios</a></li>
+                        <li><a href="#inicio" id = "I">Inicio</a></li>
+                        <li><a href="#como-funciona" id="CF" >Cómo funciona</a></li>
+                        <li><a href="#beneficios" id="B" >Beneficios</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer-column">
                     <h3 id="footer-support-title">Soporte</h3>
                     <ul>
-                        <li><a href="#">Centro de ayuda</a></li>
-                        <li><a href="#">Preguntas frecuentes</a></li>
-                        <li><a href="#">Contáctanos</a></li>
-                        <li><a href="#">Política de privacidad</a></li>
+                     <li><a href="#preguntas-frecuentes" id="PF">Preguntas frecuentes</a></li>
+                    <li><a href="privacy.html" id="PP">Política de privacidad</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer-column">
                     <h3 id="footer-contact-title">Contacto</h3>
                     <ul>
-                        <li>Email: info@bikelab.com</li>
-                        <li>Teléfono: +51 987 654 321</li>
+                        <li><a id="CO">Correo :soporte@bikelab.com</a></li>
+                        <li><a id="TF">Telefono :+51 987 654 321</a></li>
                         <li>
                             <div style="margin-top: 15px;">
                                 <a href="#" style="color: white; margin-right: 10px;">FB</a>
@@ -175,8 +440,8 @@
                 </div>
             </div>
             
-            <div class="copyright">
-                <p>&copy; 2025 BikeLab. Todos los derechos reservados.</p>
+            <div class="copyright" >
+                <p id="Copy">&copy; 2025 BikeLab. Todos los derechos reservados.</p>
             </div>
         </div>
     </footer>
