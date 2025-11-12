@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="privacy-page-title">Política de Privacidad - BikeLab</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <style>
+        .privacy-header {
+            background: linear-gradient(135deg, var(--darker) 0%, var(--dark) 50%, var(--accent) 100%);
+            padding: 120px 0 80px;
+            text-align: center;
+            color: var(--text-light);
+        }
+        
+        .privacy-content {
+            padding: 80px 0;
+            background-color: var(--dark);
+        }
+        
+        .privacy-section {
+            margin-bottom: 50px;
+            background: linear-gradient(145deg, var(--card-bg), #252525);
+            padding: 40px;
+            border-radius: 15px;
+            border: 1px solid var(--border-color);
+        }
+        
+        .privacy-section h2 {
+            color: var(--primary);
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+        }
+        
+        .privacy-section h3 {
+            color: var(--text-light);
+            margin: 25px 0 15px;
+            font-size: 1.3rem;
+        }
+        
+        .privacy-section p, .privacy-section li {
+            color: var(--text-muted);
+            line-height: 1.7;
+            margin-bottom: 15px;
+        }
+        
+        .privacy-section ul {
+            padding-left: 20px;
+        }
+        
+        .privacy-section li {
+            margin-bottom: 10px;
+        }
+        
+        .back-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            margin-bottom: 30px;
+            transition: all 0.3s ease;
+        }
+        
+        .back-button:hover {
+            color: var(--light);
+            transform: translateX(-5px);
+        }
+        
+        .last-updated {
+            text-align: center;
+            color: var(--text-muted);
+            font-style: italic;
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .privacy-header-buttons {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .language-selector {
+            padding: 8px 12px;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            background-color: var(--card-bg);
+            color: var(--text-light);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Simple -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="assets/logo.png" alt="BikeLab Logo" class="logo-img">
+                    <div class="logo-text">BIKELAB</div>
+                </div>
+                <div class="privacy-header-buttons">
+                    <select class="language-selector" id="language-selector">
+                        <option value="es">Español</option>
+                        <option value="en">English</option>
+                    </select>
+                    <a href="index.html" class="back-button" id="back-button">
+                        ← Volver al Inicio
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Privacy Header -->
+    <section class="privacy-header">
+        <div class="container">
+            <h1 id="privacy-main-title">Política de Privacidad</h1>
+        </div>
+    </section>
+
+    <!-- Privacy Content -->
+    <section class="privacy-content">
+        <div class="container">
+            <div class="privacy-section">
+                <h2 id="section1-title">1. Información que Recopilamos</h2>
+                
+                <h3 id="section1-sub1">Información Personal</h3>
+                <p id="section1-p1">Recopilamos la siguiente información cuando te registras en BikeLab:</p>
+                <ul>
+                    <li id="section1-li1">Nombre completo</li>
+                    <li id="section1-li2">Correo electrónico universitario</li>
+                    <li id="section1-li3">Número de teléfono</li>
+                    <li id="section1-li4">Universidad a la que perteneces</li>
+                    <li id="section1-li5">Información de perfil básica</li>
+                </ul>
+                
+                <h3 id="section1-sub2">Información de Uso</h3>
+                <p id="section1-p2">Automáticamente recopilamos información sobre tu uso de la plataforma:</p>
+                <ul>
+                    <li id="section1-li6">Historial de alquileres</li>
+                    <li id="section1-li7">Preferencias de vehículos</li>
+                    <li id="section1-li8">Ubicación general (solo durante el uso del servicio)</li>
+                    <li id="section1-li9">Información del dispositivo y conexión</li>
+                </ul>
+            </div>
+
+            <div class="privacy-section">
+                <h2 id="section2-title">2. Uso de la Información</h2>
+                <p id="section2-p1">Utilizamos tu información para:</p>
+                <ul>
+                    <li id="section2-li1">Proveer y mejorar nuestros servicios de micromovilidad</li>
+                    <li id="section2-li2">Verificar tu identidad como estudiante universitario</li>
+                    <li id="section2-li3">Facilitar transacciones entre usuarios</li>
+                    <li id="section2-li4">Enviar notificaciones importantes sobre tus alquileres</li>
+                    <li id="section2-li5">Personalizar tu experiencia en la plataforma</li>
+                    <li id="section2-li6">Garantizar la seguridad de nuestra comunidad</li>
+                    <li id="section2-li7">Cumplir con obligaciones legales</li>
+                </ul>
+            </div>
+
+            <div class="privacy-section">
+                <h2 id="section3-title">3. Compartición de Información</h2>
+                <p id="section3-p1"><strong>No vendemos tu información personal a terceros.</strong> Solo compartimos información en los siguientes casos:</p>
+                
+                <h3 id="section3-sub1">Con otros usuarios:</h3>
+                <ul>
+                    <li id="section3-li1">Nombre de perfil durante transacciones</li>
+                    <li id="section3-li2">Información de contacto básica para coordinación</li>
+                    <li id="section3-li3">Calificaciones y comentarios (sistema de reputación)</li>
+                </ul>
+                
+                <h3 id="section3-sub2">Con proveedores de servicios:</h3>
+                <ul>
+                    <li id="section3-li4">Procesadores de pago (información necesaria para transacciones)</li>
+                    <li id="section3-li5">Servicios de hosting y almacenamiento</li>
+                    <li id="section3-li6">Herramientas de análisis (datos anonimizados)</li>
+                </ul>
+                
+                <h3 id="section3-sub3">Por requerimiento legal:</h3>
+                <p id="section3-p2">Cuando sea necesario para cumplir con la ley o proteger nuestros derechos.</p>
+            </div>
+
+            <div class="privacy-section">
+                <h2 id="section4-title">4. Seguridad de los Datos</h2>
+                <p id="section4-p1">Implementamos medidas de seguridad para proteger tu información:</p>
+                <ul>
+                    <li id="section4-li1">Encriptación de datos sensibles</li>
+                    <li id="section4-li2">Acceso restringido a información personal</li>
+                    <li id="section4-li3">Revisiones regulares de seguridad</li>
+                    <li id="section4-li4">Autenticación de dos factores disponible</li>
+                </ul>
+            </div>
+
+            <div class="privacy-section">
+                <h2 id="section5-title">5. Tus Derechos</h2>
+                <p id="section5-p1">Tienes derecho a:</p>
+                <ul>
+                    <li id="section5-li1">Acceder a tu información personal</li>
+                    <li id="section5-li2">Corregir información inexacta</li>
+                    <li id="section5-li3">Solicitar la eliminación de tu cuenta</li>
+                    <li id="section5-li4">Exportar tus datos</li>
+                    <li id="section5-li5">Oponerte al procesamiento de ciertos datos</li>
+                </ul>
+                <p id="section5-p2">Para ejercer estos derechos, contáctanos en <strong>privacidad@bikelab.com</strong></p>
+            </div>
+
+            <div class="privacy-section">
+                <h2 id="section6-title">6. Cookies y Tecnologías Similares</h2>
+                <p id="section6-p1">Utilizamos cookies para:</p>
+                <ul>
+                    <li id="section6-li1">Mantener tu sesión activa</li>
+                    <li id="section6-li2">Recordar tus preferencias</li>
+                    <li id="section6-li3">Analizar el uso de la plataforma</li>
+                    <li id="section6-li4">Mejorar nuestro servicio</li>
+                </ul>
+                <p id="section6-p2">Puedes gestionar las cookies desde la configuración de tu navegador.</p>
+            </div>
+
+            <div class="privacy-section">
+                <h2 id="section7-title">7. Menores de Edad</h2>
+                <p id="section7-p1">Nuestros servicios están dirigidos a estudiantes universitarios. No recopilamos intencionalmente información de menores de 18 años. Si eres padre/madre y crees que tu hijo nos ha proporcionado información, contáctanos inmediatamente.</p>
+            </div>
+
+            <div class="privacy-section">
+                <h2 id="section8-title">8. Cambios en esta Política</h2>
+                <p id="section8-p1">Podemos actualizar esta política ocasionalmente. Te notificaremos sobre cambios significativos mediante:</p>
+                <ul>
+                    <li id="section8-li1">Notificación en la aplicación</li>
+                    <li id="section8-li2">Correo electrónico</li>
+                    <li id="section8-li3">Actualización de la fecha en esta página</li>
+                </ul>
+            </div>
+
+            <div class="privacy-section">
+                <h2 id="section9-title">9. Contacto</h2>
+                <p id="section9-p1">Si tienes preguntas sobre esta política de privacidad, contáctanos:</p>
+                <ul>
+                        <li><a id="CO">Correo :soporte@bikelab.com</a></li>
+                        <li><a id="TF">Telefono :+51 987 654 321</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>BikeLab</h3>
+                    <p id="footer-about">La plataforma de micromovilidad líder para estudiantes universitarios.</p>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 id="footer-links-title">Enlaces</h3>
+                    <ul>
+                        <li><a href="index.html" id="footer-home">Inicio</a></li>
+                        <li><a href="index.html#como-funciona" id="footer-how-it-works">Cómo funciona</a></li>
+                        <li><a href="index.html#preguntas-frecuentes" id="footer-faq">Preguntas Frecuentes</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 id="footer-legal-title">Legal</h3>
+                    <ul>
+                        <li><a href="privacy.html" id="footer-privacy">Política de Privacidad</a></li>
+                        <li><a href="terms.html" id="footer-terms">Términos de Servicio</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 id="footer-contact-title">Contacto</h3>
+                    <ul>
+                        <li id="footer-email">Email: info@bikelab.com</li>
+                        <li id="footer-phone">Teléfono: +51 987 654 321</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p id="footer-copyright">&copy; 2025 BikeLab. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/language.js"></script>
+    <script>
+        // Inicializar traducción para privacy.html
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageSelector = document.getElementById('language-selector');
+            
+            if (languageSelector) {
+                // Cargar idioma guardado
+                const savedLang = localStorage.getItem('preferred-language') || 'es';
+                languageSelector.value = savedLang;
+                
+                // Aplicar idioma inicial
+                if (window.changeLanguage) {
+                    window.changeLanguage(savedLang);
+                }
+                
+                // Event listener para cambios
+                languageSelector.addEventListener('change', function() {
+                    const selectedLang = this.value;
+                    localStorage.setItem('preferred-language', selectedLang);
+                    
+                    if (window.changeLanguage) {
+                        window.changeLanguage(selectedLang);
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>
