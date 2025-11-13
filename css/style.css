@@ -488,6 +488,73 @@ nav ul li a:hover::after {
     }
 }
 
+/* About Video Styles */
+.about-video {
+    margin-bottom: 40px;
+    background: linear-gradient(145deg, var(--card-bg), #252525);
+    padding: 25px;
+    border-radius: 15px;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.about-video .video-wrapper {
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    background-color: var(--dark);
+}
+
+.about-video .video-wrapper video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.video-caption {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.video-caption p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    font-style: italic;
+    margin: 0;
+    opacity: 0.8;
+}
+
+/* Responsive para About Video */
+@media (max-width: 968px) {
+    .about-video {
+        margin-bottom: 30px;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-video {
+        padding: 15px;
+        margin-bottom: 25px;
+    }
+    
+    .video-caption p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-video {
+        padding: 12px;
+        margin-bottom: 20px;
+    }
+    
+    .video-caption p {
+        font-size: 0.85rem;
+    }
+}
+
 /* Features Section */
 .features {
     padding: 100px 0;
@@ -657,6 +724,138 @@ nav ul li a:hover::after {
     color: var(--text-muted);
     line-height: 1.7;
 }
+
+/* Video Demo Section  */
+.video-demo {
+    padding: 100px 0;
+    background-color: var(--darker);
+    position: relative;
+}
+
+.video-demo::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--primary), transparent);
+}
+
+.video-container {
+    max-width: 900px;
+    margin: 0 auto 60px;
+}
+
+.video-wrapper {
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    border: 1px solid var(--border-color);
+    background-color: var(--dark);
+}
+
+/* Estilos para el elemento video */
+.video-wrapper video {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+}
+
+/*controles del video */
+.video-wrapper video::-webkit-media-controls-panel {
+    background-color: rgba(26, 26, 26, 0.9);
+}
+
+.video-wrapper video::-webkit-media-controls-play-button,
+.video-wrapper video::-webkit-media-controls-volume-slider,
+.video-wrapper video::-webkit-media-controls-timeline {
+    background-color: var(--primary);
+    border-radius: 4px;
+}
+
+.video-features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.video-feature {
+    text-align: center;
+    padding: 30px 20px;
+    background: linear-gradient(145deg, var(--card-bg), #252525);
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    transition: all 0.3s ease;
+}
+
+.video-feature:hover {
+    transform: translateY(-5px);
+    border-color: var(--primary);
+}
+
+.video-feature .feature-icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.video-feature h4 {
+    color: var(--primary);
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.video-feature p {
+    color: var(--text-muted);
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Responsive Video */
+@media (max-width: 768px) {
+    .video-demo {
+        padding: 80px 0;
+    }
+    
+    .video-container {
+        margin-bottom: 40px;
+    }
+    
+    .video-features {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .video-feature {
+        padding: 25px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .video-demo {
+        padding: 60px 0;
+    }
+    
+    .video-wrapper {
+        border-radius: 10px;
+    }
+    
+    .video-feature {
+        padding: 20px 15px;
+    }
+    
+    .video-feature .feature-icon {
+        font-size: 2rem;
+    }
+}
+
+
 
 /* Modal Styles*/
 
