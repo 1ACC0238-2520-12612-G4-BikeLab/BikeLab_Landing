@@ -46,7 +46,9 @@
             <h1 id="hero-title">Movilidad sostenible para estudiantes universitarios</h1>
             <p id="hero-text">Alquila bicicletas y scooters de otros estudiantes de forma segura y económica. Únete a la comunidad de micromovilidad más grande en campus universitarios.</p>
             <div class="hero-buttons">
-                <button class="btn btn-secondary" id="download-app">Descargar la App</button>
+                  <button class="btn btn-secondary" id="download-app" onclick="window.open('https://appdistribution.firebase.google.com/pub/i/c7d637b96abff7fc', '_blank')">
+        Descargar la App
+    </button>
                 <button class="btn btn-primary" id="learn-more">Saber más</button>
             </div>
             <div class="hero-image-placeholder">
@@ -63,6 +65,21 @@
                 <div class="section-title">
                     <h2 id="about-title">Sobre BikeLab</h2>
                     <p id="about-subtitle">Conectando estudiantes a través de la movilidad sostenible</p>
+                </div>
+
+                 <!-- Video de Sobre Nosotros -->
+                <div class="about-video">
+                    <div class="video-wrapper">
+                        <video controls style="width: 100%; height: auto; border-radius: 12px;">
+                            <source src="assets/Bikelab - About The Team.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                            <div class="video-link-simple">
+                <a href="https://youtu.be/SruqaTmF4wc" target="_blank">
+                    ▶️
+                </a>
+            </div>
+        </div>
                 </div>
                 
                 <div class="about-description">
@@ -212,6 +229,44 @@
             </div>
         </div>
     </section>
+
+    <!-- Video Demo Section -->
+<section class="video-demo" id="demo-producto">
+    <div class="container">
+        <div class="section-title">
+            <h2 id="video-title">Descubre BikeLab en Acción</h2>
+            <p id="video-subtitle">Mira cómo nuestra plataforma transforma la movilidad universitaria</p>
+        </div>
+        
+         <div class="video-container">
+            <div class="video-wrapper">
+                <video controls style="width: 100%; height: auto; border-radius: 15px;">
+                    <source src="assets/Bikelab - About The Product.mp4" type="video/mp4">
+                </video>
+            </div>
+                <div class="video-link-simple">
+                <a href="https://youtu.be/mzjE_LIRTQo" target="_blank">
+                    ▶️
+                </a>
+            </div>
+        </div>
+        
+        <div class="video-features">
+            <div class="video-feature">
+                <h4 id="video-feature1">Fácil de usar</h4>
+                <p id="video-feature1-text">Interfaz intuitiva diseñada para estudiantes</p>
+            </div>
+            <div class="video-feature">
+                <h4 id="video-feature2">Rápido y eficiente</h4>
+                <p id="video-feature2-text">Proceso de alquiler en menos de 2 minutos</p>
+            </div>
+            <div class="video-feature">
+                <h4 id="video-feature3">Completamente seguro</h4>
+                <p id="video-feature3-text">Sistema de verificación y transacciones protegidas</p>
+            </div>
+        </div>
+    </div>
+</section>
 
     <!-- FAQ Section -->
 <section class="faq" id="preguntas-frecuentes">
@@ -394,7 +449,9 @@
         <div class="container">
             <h2 id="cta-title">¡Únete a la revolución de la micromovilidad!</h2>
             <p id="cta-text">Descarga la aplicación hoy mismo y comienza a disfrutar de todos los beneficios de BikeLab en tu campus.</p>
-            <button class="btn btn-secondary" id="cta-button">Descargar ahora</button>
+            <button class="btn btn-secondary" id="cta-button" onclick="window.open('https://appdistribution.firebase.google.com/pub/i/c7d637b96abff7fc', '_blank')">
+                Descargar ahora
+            </button>
         </div>
     </section>
 
