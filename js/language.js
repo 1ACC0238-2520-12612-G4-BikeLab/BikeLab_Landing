@@ -61,6 +61,17 @@ const translations = {
         "step3-title": "Disfruta del viaje",
         "step3-text": "Reserva, desbloquea y disfruta de tu viaje de forma segura y económica.",
 
+        //video
+
+        "video-title": "Descubre BikeLab en Acción",
+        "video-subtitle": "Mira cómo nuestra plataforma transforma la movilidad universitaria",
+        "video-feature1": "Fácil de usar",
+        "video-feature1-text": "Interfaz intuitiva diseñada para estudiantes",
+        "video-feature2": "Rápido y eficiente", 
+        "video-feature2-text": "Proceso de alquiler en menos de 2 minutos",
+        "video-feature3": "Completamente seguro",
+        "video-feature3-text": "Sistema de verificación y transacciones protegidas",
+
         //FAQ
 
         "faq-title": "Preguntas Frecuentes",
@@ -343,6 +354,17 @@ const translations = {
         "step2-text": "Search for available bicycles or scooters near you, or list yours for rent.",
         "step3-title": "Enjoy the ride",
         "step3-text": "Book, unlock and enjoy your trip safely and affordably.",
+
+        //video
+
+        "video-title": "Discover BikeLab in Action",
+        "video-subtitle": "See how our platform transforms university mobility",
+        "video-feature1": "Easy to use",
+        "video-feature1-text": "Intuitive interface designed for students",
+        "video-feature2": "Fast and efficient",
+        "video-feature2-text": "Rental process in less than 2 minutes", 
+        "video-feature3": "Completely secure",
+        "video-feature3-text": "Verification system and protected transactions",
          
         //FAQ
         "faq-title": "Frequently Asked Questions",
