@@ -331,7 +331,7 @@ document.addEventListener('keydown', function(e) {
 
 // Botones de descarga
 document.getElementById('download-app').addEventListener('click', function() {
-    alert('Redirigiendo a la tienda de aplicaciones...');
+    window.open('https://appdistribution.firebase.google.com/pub/i/c7d637b96abff7fc', '_blank');
 });
 
 document.getElementById('learn-more').addEventListener('click', function() {
@@ -341,7 +341,7 @@ document.getElementById('learn-more').addEventListener('click', function() {
 });
 
 document.getElementById('cta-button').addEventListener('click', function() {
-    alert('Redirigiendo a la tienda de aplicaciones...');
+    window.open('https://appdistribution.firebase.google.com/pub/i/c7d637b96abff7fc', '_blank');
 });
 
 // Cerrar menú móvil al hacer clic fuera
@@ -396,3 +396,4 @@ setTimeout(() => {
         });
     }
 }, 1000);
+
